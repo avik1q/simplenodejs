@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/avik1q/simplenodejs/issues"
   },
-  "homepage": "https://github.com/avik1q/simplenodejs#readme"
+  "homepage": "https://github.com/avik1q/simplenodejs#readme",
+  "dependencies": {
+    "mongoose": "^5.7.1"
+  }
 }
