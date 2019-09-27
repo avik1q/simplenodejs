@@ -9,6 +9,8 @@ const server = http.createServer((req, res) => {
   res.end('Hello World\n');
 });
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+server.listen(port, () => {
+  console.log(`Server running at http://${this.address().address}:${port}/`);
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+
 });
