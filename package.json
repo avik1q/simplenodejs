@@ -11,6 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/avik1q/simplenodejs.git"
   },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
