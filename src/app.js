@@ -11,6 +11,6 @@ const server = http.createServer((req, res) => {
 
 server.listen(port, () => {
   // console.log(`Server running at http://${this.address().address}:${port}/`);
-  console.log("Express server listening on port $d in %s mode",port);
+  console.log("Express server listening on port %d in %s mode",port,server.address().address);
 
 });
