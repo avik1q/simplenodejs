@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/avik1q/simplenodejs#readme",
   "dependencies": {
-    "mongoose": "^5.7.1"
+    "mongoose": "^5.7.5"
   }
 }
